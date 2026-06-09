@@ -1,6 +1,6 @@
 # BookNest
 
-A personal library management web application built using HTML, CSS, and JavaScript.
+A personal library management web application built with HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -15,4 +15,9 @@ A personal library management web application built using HTML, CSS, and JavaScr
 - HTML5
 - CSS3
 - JavaScript (DOM Manipulation)
+
+## Preview
+
+[BookNest Screenshot]
+(C:\Users\Akshaya\Pictures\Screenshots\Screenshot (117).png)
 
