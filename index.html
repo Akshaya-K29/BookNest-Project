@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest - Personal Library Manager</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+       <h1>BookNest</h1>
+    </div>
+    
+<div class="stats">
+    Total Books: <span id="book-count">1</span>
+</div>
+
+
+    <div class="container">
+<div class="book-container">
+<h2>ATOMIC HABITS</h2>
+<h5>by James Clear</h5>
+<p>Atomic Habits explores how small daily improvements can lead to remarkable results over time. The book provides practical strategies for building good habits, breaking bad ones, and achieving long-term success.</p>
+<button onclick="deletebook(event)">Delete</button>
+    </div>
+    </div>
+     
+    
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        
+        <form>
+    <label for="Book-title-input">Book Title</label>
+    <input type="text" placeholder="Book Title" id="Book-title-input">
+
+    <label for="Book-Author-input">Book Author</label>
+    <input type="text" placeholder="Book Author" id="Book-Author-input">
+
+    <label for="book-description-input">Description</label>
+    <textarea placeholder="Short Description" id="book-description-input"></textarea>
+
+    <button id="add-book">ADD</button>
+    <button id="cancel-popup">CANCEL</button>
+</form>
+
+
+
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
